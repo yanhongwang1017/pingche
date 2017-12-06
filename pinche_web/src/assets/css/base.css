@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+}
+main{
+    width: 93.6%;
+    margin: 0 auto;
+}
+.bigCircle{
+    width: 0.13rem;height: 0.13rem;border-radius: 50%;
+    background: #fff0e3;float: left;margin-right: 0.11rem;margin-top:0.2rem;
+}
+.circle{
+    width: 0.05rem;height: 0.05rem;margin-left: 0.04rem;margin-top: 0.04rem;
+    border-radius: 50%;background: #ff8b34;
+}
+.v-enter{
+    transform: translate(100%,0);
+}
+.v-leave-to{
+    transform: translate(-100%,0);
+}
+.v-enter-active,.v-leave-active{
+    transition:1s;
+}
